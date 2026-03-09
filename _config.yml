@@ -1,0 +1,76 @@
+title: Ollie Krow | Project Hub
+description: Documentation hub for GitHub PM workflows, game design, team onboarding, and project roadmap.
+
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+
+url: "https://olliekrow.github.io"
+baseurl: "/project-hub"
+
+# --- Navigation ---
+nav_sort: order  # Use nav_order front matter to control ordering
+
+# --- Search ---
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+
+# --- Color Scheme ---
+color_scheme: light   # Options: light, dark
+
+# --- Header / Footer ---
+aux_links:
+  "GitHub →":
+    - "https://github.com/olliekrow"
+
+aux_links_new_tab: true
+
+footer_content: "Built with <a href='https://just-the-docs.com'>Just the Docs</a> · Ollie Krow"
+
+# --- Heading Anchors ---
+heading_anchors: true
+
+# --- Back to Top ---
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# --- Last Edit Timestamp ---
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y"
+
+# --- Callouts ---
+callouts_level: quiet
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
+
+# --- Plugins ---
+plugins:
+  - jekyll-seo-tag
+  - jekyll-github-metadata
+
+# --- Exclude from build ---
+exclude:
+  - "*.gemspec"
+  - "*.gem"
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - node_modules
+  - vendor
