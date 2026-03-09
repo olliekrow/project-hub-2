@@ -2,7 +2,7 @@
 title: GitHub PM Setup
 nav_order: 2
 has_children: true
-permalink: docs/github-pm/
+permalink: /docs/github-pm/
 ---
 
 # GitHub PM Setup & Workflows
