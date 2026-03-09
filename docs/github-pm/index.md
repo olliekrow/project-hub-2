@@ -14,7 +14,7 @@ Everything you need to understand how this org's GitHub project management is st
 
 ## Overview
 
-This section documents the GitHub PM architecture built for AmericaSCORES Bay Area, prototyped in the `olliekrow` demo space before org-level rollout.
+This section documents the GitHub PM architecture prototyped in the `olliekrow` demo space before org-level rollout.
 
 The system is built around three core principles:
 
