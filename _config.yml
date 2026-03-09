@@ -4,7 +4,7 @@ description: Documentation hub for GitHub PM workflows, game design, team onboar
 remote_theme: just-the-docs/just-the-docs@v0.10.0
 
 url: "https://olliekrow.github.io"
-baseurl: "/project-hub"
+baseurl: "/project-hub-2"
 
 # --- Navigation ---
 nav_sort: order  # Use nav_order front matter to control ordering
