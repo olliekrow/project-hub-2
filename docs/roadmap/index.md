@@ -2,7 +2,7 @@
 title: Roadmap
 nav_order: 5
 has_children: false
-permalink: docs/roadmap/
+permalink: /docs/roadmap/
 ---
 
 # Roadmap
