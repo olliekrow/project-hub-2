@@ -2,7 +2,7 @@
 title: Game Design Docs
 nav_order: 3
 has_children: true
-permalink: docs/game-design/
+permalink: /docs/game-design/
 ---
 
 # Game Design Docs
